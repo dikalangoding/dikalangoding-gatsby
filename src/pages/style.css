@@ -1,9 +1,16 @@
+.navbar {
+    box-shadow: 2px 2px 5px #3292a6;
+    opacity: 0.9;
+    background: #fff;
+}
+
 #showcase {
     position: relative;
-    background: url('https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80');
+    background: url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100vh;
+    margin-top: 5.9rem;
+    min-height: 85.6vh;
 }
 
 #showcase .primary-overlay {

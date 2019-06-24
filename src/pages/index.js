@@ -3,8 +3,11 @@ import React from "react"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './style.css'
 
-export default () => {
-    return (
+import Navbar from '../components/Navbar'
+
+export default () => (
+    <>
+        <Navbar /> 
         <section id="showcase" className="py-5">
             <div className="primary-overlay text-white">
                 <div className="container">
@@ -18,5 +21,5 @@ export default () => {
                 </div>
             </div>
         </section>
-    )
-}
+    </>
+)
