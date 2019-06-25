@@ -1,7 +1,7 @@
 import React from "react"
 
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './style.css'
+import './style.scss'
 
 import Navbar from '../components/Navbar'
 
@@ -12,7 +12,7 @@ export default () => (
             <div className="primary-overlay text-white">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-12 text-center">
+                        <div className="col-lg-12 text-center typewriter">
                             <h1 className="display-2 mt-5 pt-5">
                                 Coming Soon
                             </h1>
