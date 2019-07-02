@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Poppins");
+
+:root {
+    --primaryColor: #3fd0d4;
+    --mainWhite: #fff;
+    --mainBlack: #222;
+    --mainSpacing: 4px;
+    cursor: pointer;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.defaultHero {
+    min-height: calc(100vh - 62px);
+    background: linear-gradient(rgba(63, 208, 212, 0.7), rgba(0, 0, 0, 0.7)), url("../images/background.jpg") center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

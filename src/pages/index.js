@@ -1,25 +1,14 @@
 import React from "react"
-
-import 'bootstrap/dist/css/bootstrap.min.css'
-import './style.scss'
-
-import Navbar from '../components/Navbar'
+import Layout from "../components/Layout"
+import SimpleHero from "../components/SimpleHero"
+import Banner from "../components/Banner"
 
 export default () => (
-    <>
-        <Navbar /> 
-        <section id="showcase" className="py-5">
-            <div className="primary-overlay text-white">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-12 text-center typewriter">
-                            <h1 className="display-2 mt-5 pt-5">
-                                Coming Soon
-                            </h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </>
+    <Layout>
+        <SimpleHero>
+            <Banner title="coming soon">
+                
+            </Banner>
+        </SimpleHero>
+    </Layout>
 )

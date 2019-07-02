@@ -1,0 +1,13 @@
+.footer {
+    margin-top: auto;
+    background: var(--mainBlack);
+    padding: 2rem;
+    text-align: center;
+    color: var(--mainWhite);
+}
+
+.copyright {
+    text-transform: capitalize;
+    letter-spacing: var(--mainSpacing);
+    line-height: 2;
+}

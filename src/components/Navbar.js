@@ -1,14 +1,14 @@
 import React from 'react'
-import Logo from "../images/logo.png"
+import styles from "../css/navbar.module.css"
+import logo from "../images/logo.png"
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-md navbar-light fixed-top py-4" id="main-nav">
-            <div className="container">
-                <a href="#" className="navbar-brand">
-                    <img src={Logo} alt="Logo" width="50" height="50"/>
-                    <h3 className="d-inline align-middle text-primary">Dikalangoding</h3>
-                </a>
+        <nav className={styles.navbar}>
+            <div className={styles.navCenter}>
+                <div className={styles.navHeader}>
+                    <img src={logo} alt="Dikalangoding Logo"/>
+                </div>
             </div>
         </nav>
     )
